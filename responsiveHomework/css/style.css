@@ -1,0 +1,31 @@
+/* Tablet View - Triggers at 772px */
+@media screen and (min-width: 772px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .box {
+        width: 45vw; /* 45% of viewport width */
+        height: auto; 
+    }
+
+    .box img {
+        max-height: 30vh; /* No more than 30% of viewport height */
+        width: auto;
+    }
+}
+
+/* Large Screen View - Triggers at 998px */
+@media screen and (min-width: 998px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .box {
+        width: 30vw; /* 30% of viewport width */
+    }
+}
+
